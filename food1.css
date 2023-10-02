@@ -1,0 +1,200 @@
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+}
+nav h3:hover{
+    list-style: 40px;
+    transform: scale(1.05);
+    color: darkred;
+}
+ul{
+    display: flex;
+    
+}
+#d1:hover{
+    transform: scale(1.05);
+color: darkred;
+}
+#d2:hover{
+    transform: scale(1.05);
+color: darkred;
+}
+#d3:hover{
+    transform: scale(1.05);
+color: darkred;
+}
+#d4:hover{
+    transform: scale(1.05);
+color: darkred;
+}
+ul a{
+    list-style: none;
+    margin-inline: 30px;
+    /* background-color: rgba(255, 0, 0, 0.468) ; */
+}
+.btn button{
+    width: 50px;
+    height: 20px;
+    border: 2px solid rgba(255, 0, 0, 0.468);
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 20px;
+    margin-top: 11px;
+    margin-right: 20px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.main-div  .head{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.img img{
+    margin-right: 90px;
+    width: 400px;
+} 
+.head button{
+    width: 90px;
+    height: 40px;
+    background-color: rgba(255, 0, 0, 0.468);
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.head button:hover{
+    background-color: black;
+    border: 3px solid rgba(255, 0, 0, 0.468);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.menu {
+/* height: 600px; */
+width: 100%;
+background-color: white;
+color: black;
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+}
+.menu:hover{
+box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+
+}
+.k1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.l1 img{
+    width:276px ;
+    border-radius: 10px;
+}
+.l2 img{
+    width:276px ;
+    border-radius: 10px;
+}
+.l3 img{
+    width:276px ;
+    height: 185px;
+    border-radius: 10px;
+}
+.l4 img{
+    width:276px ;
+    border-radius: 10px;
+}
+.menu h3{
+    text-align: center;
+}
+.menu p{
+    padding: 20px;
+}
+.l1{
+    height: 500px;
+    width: 276px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    float: left;
+    border-radius: 10px;
+   border: 2px black solid;
+}
+/* .l1:hover{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+/* color: red;
+transform: scale(1); 
+} */
+.l2{
+    height: 500px;
+    width: 276px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    float: left;
+    border-radius: 10px;
+    
+}
+.l3{
+    height: 500px;
+    width: 276px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    float: left;
+    border-radius: 10px;
+    
+}
+.l4{
+    height: 500px;
+    width: 276px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    float: left;
+    border-radius: 10px;
+    
+}
+.menu button{
+    background-color: white;
+    border-radius: 30px;
+    border: 6px black solid;
+    color: black;
+    transform: scale(1.1);
+
+
+}
+#b1:hover{
+    background-color: black;
+    color: darkred;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+  
+}
+#b2:hover{
+    background-color: black;
+    color: darkred;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+  
+}
+#b3:hover{
+    background-color: black;
+    color: darkred;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+  
+}
+#b4:hover{
+    background-color: black;
+    color: darkred;
+      box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2), 0 6px 2px 0 rgb(0, 0, 0, 0.19);
+  
+}
+
